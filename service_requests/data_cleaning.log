@@ -1,0 +1,43 @@
+2024-11-28 07:59:39,152 - INFO - Starting the data science pipeline...
+2024-11-28 08:00:40,652 - INFO - Running data cleaning...
+2024-11-28 08:00:40,653 - INFO - Starting the main data cleaning pipeline.
+2024-11-28 08:00:45,831 - INFO - Cleaning 'closed_date' column.
+2024-11-28 08:00:46,686 - INFO - 'closed_date': 4809535 missing values before, 5467347 after cleaning.
+2024-11-28 08:00:47,342 - INFO - Cleaning 'latitude' and 'longitude' columns.
+2024-11-28 08:00:47,675 - INFO - Created ZIP mapping for 920 ZIP codes.
+2024-11-28 08:00:47,864 - INFO - 'latitude': Missing values after cleaning: 4492.
+2024-11-28 08:00:47,865 - INFO - 'longitude': Missing values after cleaning: 4505.
+2024-11-28 08:00:48,066 - INFO - Cleaning categorical column 'descriptor' using grouping on ['complaint_type', 'location_type'].
+2024-11-28 08:00:50,454 - INFO - 'descriptor': Missing values after cleaning: 12.
+2024-11-28 08:00:50,463 - INFO - Cleaning categorical column 'location_type' using grouping on ['complaint_type', 'descriptor'].
+2024-11-28 08:00:52,854 - INFO - 'location_type': Missing values after cleaning: 12.
+2024-11-28 08:00:53,030 - INFO - Cleaning 'incident_address' and related address fields.
+2024-11-28 08:00:53,474 - INFO - Cleaning 'bbl' column.
+2024-11-28 08:00:53,821 - INFO - 'bbl': Missing values after cleaning: 899.
+2024-11-28 08:00:54,400 - INFO - Dropping columns with high missing values: ['taxi_pick_up_location', 'vehicle_type'].
+2024-11-28 08:00:54,578 - INFO - Dropping redundant location columns: ['intersection_street_1', 'intersection_street_2', 'cross_street_1', 'cross_street_2'].
+2024-11-28 08:00:54,715 - INFO - Dropping redundant columns: 'x_coordinate_state_plane', 'y_coordinate_state_plane'.
+2024-11-28 08:00:54,843 - INFO - Dropping redundant columns: 'agency', 'location'.
+2024-11-28 08:00:54,967 - INFO - Cleaning remaining columns.
+2024-11-28 08:00:55,392 - INFO - Data cleaning pipeline completed successfully.
+2024-11-28 08:00:55,392 - INFO - Running data cleaning...
+2024-11-28 08:00:55,392 - INFO - Starting the feature engineering pipeline.
+2024-11-28 08:00:55,392 - INFO - Converting columns ['created_date', 'closed_date', 'resolution_action_updated_date'] to datetime format.
+2024-11-28 08:00:55,895 - INFO - Calculating response time from 'created_date' to 'closed_date'.
+2024-11-28 08:00:55,911 - INFO - Extracting date features from 'created_date'.
+2024-11-28 08:00:55,971 - INFO - Extracting date features from 'closed_date'.
+2024-11-28 08:00:56,030 - INFO - Creating weekday feature 'response_weekday' from 'created_date'.
+2024-11-28 08:00:56,058 - INFO - Creating interaction feature 'borough_complaint_type' from 'borough' and 'complaint_type'.
+2024-11-28 08:00:56,163 - INFO - Creating interaction feature 'hour_weekday_interaction' from 'created_hour' and 'response_weekday'.
+2024-11-28 08:00:56,564 - INFO - Dropping columns: ['resolution_action_updated_date', 'incident_address'].
+2024-11-28 08:00:56,703 - INFO - Applying label encoding to columns: ['agency_name', 'address_type', 'status', 'location_type', 'park_borough', 'complaint_type', 'descriptor'].
+2024-11-28 08:00:57,430 - INFO - Applying frequency encoding to column: incident_zip.
+2024-11-28 08:00:57,466 - INFO - Applying frequency encoding to column: landmark.
+2024-11-28 08:00:57,503 - INFO - Applying frequency encoding to column: community_board.
+2024-11-28 08:00:57,534 - INFO - Applying frequency encoding to column: borough.
+2024-11-28 08:00:57,570 - INFO - Applying frequency encoding to column: open_data_channel_type.
+2024-11-28 08:00:57,606 - INFO - Applying frequency encoding to column: park_facility_name.
+2024-11-28 08:00:57,639 - INFO - Applying frequency encoding to column: borough_complaint_type.
+2024-11-28 08:00:57,730 - INFO - Scaling numerical columns: ['latitude', 'longitude', 'response_time'].
+2024-11-28 08:00:57,772 - INFO - Feature engineering pipeline completed successfully.
+2024-11-28 08:00:57,800 - INFO - Pipeline completed successfully!

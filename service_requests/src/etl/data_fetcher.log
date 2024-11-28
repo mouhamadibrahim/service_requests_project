@@ -1,0 +1,94 @@
+2024-11-28 05:34:45,219 - INFO - No existing file found. Starting fresh.
+2024-11-28 05:34:45,219 - INFO - Fetching records starting at offset 0
+2024-11-28 05:34:47,672 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:34:48,675 - INFO - Fetching records starting at offset 1000
+2024-11-28 05:34:50,326 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:34:51,328 - INFO - Fetching records starting at offset 2000
+2024-11-28 05:34:52,891 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:34:53,892 - INFO - Fetching records starting at offset 3000
+2024-11-28 05:34:55,395 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:34:56,397 - INFO - Fetching records starting at offset 4000
+2024-11-28 05:34:57,912 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:34:58,914 - INFO - Fetching records starting at offset 5000
+2024-11-28 05:35:00,695 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:35:01,698 - INFO - Fetching records starting at offset 6000
+2024-11-28 05:35:03,880 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:35:04,883 - INFO - Fetching records starting at offset 7000
+2024-11-28 05:35:06,464 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:35:07,465 - INFO - Fetching records starting at offset 8000
+2024-11-28 05:35:09,421 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:35:10,423 - INFO - Fetching records starting at offset 9000
+2024-11-28 05:35:12,149 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:35:13,150 - INFO - Fetching records starting at offset 10000
+2024-11-28 05:35:14,808 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:35:15,810 - INFO - Fetching records starting at offset 11000
+2024-11-28 05:35:17,425 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:35:18,426 - INFO - Fetching records starting at offset 12000
+2024-11-28 05:35:19,940 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:35:20,941 - INFO - Fetching records starting at offset 13000
+2024-11-28 05:35:22,795 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:35:23,798 - INFO - Fetching records starting at offset 14000
+2024-11-28 05:35:25,432 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:35:26,432 - INFO - Fetching records starting at offset 15000
+2024-11-28 05:35:27,952 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:35:28,956 - INFO - Fetching records starting at offset 16000
+2024-11-28 05:35:30,922 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:35:31,927 - INFO - Fetching records starting at offset 17000
+2024-11-28 05:35:33,452 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:35:34,455 - INFO - Fetching records starting at offset 18000
+2024-11-28 05:35:36,516 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:35:37,519 - INFO - Fetching records starting at offset 19000
+2024-11-28 05:35:39,376 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:35:40,379 - INFO - Fetching records starting at offset 20000
+2024-11-28 05:35:41,943 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:35:42,944 - INFO - Fetching records starting at offset 21000
+2024-11-28 05:35:45,122 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:35:46,123 - INFO - Fetching records starting at offset 22000
+2024-11-28 05:35:48,140 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:35:49,144 - INFO - Fetching records starting at offset 23000
+2024-11-28 05:35:50,861 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:35:51,867 - INFO - Fetching records starting at offset 24000
+2024-11-28 05:35:53,548 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:35:54,550 - INFO - Fetching records starting at offset 25000
+2024-11-28 05:35:56,170 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:35:57,174 - INFO - Fetching records starting at offset 26000
+2024-11-28 05:35:59,393 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:36:00,394 - INFO - Fetching records starting at offset 27000
+2024-11-28 05:36:02,128 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:36:03,132 - INFO - Fetching records starting at offset 28000
+2024-11-28 05:36:04,714 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:36:05,714 - INFO - Fetching records starting at offset 29000
+2024-11-28 05:36:07,724 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:36:08,725 - INFO - Fetching records starting at offset 30000
+2024-11-28 05:36:10,510 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:36:11,512 - INFO - Fetching records starting at offset 31000
+2024-11-28 05:36:14,116 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:36:15,118 - INFO - Fetching records starting at offset 32000
+2024-11-28 05:36:18,481 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:36:19,483 - INFO - Fetching records starting at offset 33000
+2024-11-28 05:36:21,134 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:36:22,136 - INFO - Fetching records starting at offset 34000
+2024-11-28 05:36:23,800 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:36:24,801 - INFO - Fetching records starting at offset 35000
+2024-11-28 05:36:27,077 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:36:28,080 - INFO - Fetching records starting at offset 36000
+2024-11-28 05:36:30,091 - INFO - Saved 1000 records to one_month_311_service_requests.csv.
+2024-11-28 05:44:35,871 - INFO - No existing file found. Starting fresh.
+2024-11-28 05:44:35,871 - INFO - Fetching records starting at offset 0
+2024-11-28 05:45:11,846 - INFO - No existing file found. Starting fresh.
+2024-11-28 05:45:11,846 - INFO - Fetching records starting at offset 0
+2024-11-28 05:46:06,659 - INFO - Resuming data fetch from existing file: ../../data/processed/data.csv
+2024-11-28 05:46:53,440 - INFO - Data fetching completed. Data saved to '../../data/processed/data.csv'.
+2024-11-28 05:47:02,123 - INFO - Resuming data fetch from existing file: ../../data/processed/data.csv
+2024-11-28 05:47:49,166 - INFO - Data fetching completed. Data saved to '../../data/processed/data.csv'.
+2024-11-28 05:48:39,851 - INFO - Resuming data fetch from existing file: ../../data/processed/data.csv
+2024-11-28 05:49:33,463 - INFO - Resuming data fetch from existing file: ../../data/processed/data.csv
+2024-11-28 05:50:23,820 - INFO - Fetching records starting at offset 6388000
+2024-11-28 05:51:24,736 - ERROR - Error fetching data: HTTPSConnectionPool(host='data.cityofnewyork.us', port=443): Read timed out. (read timeout=60)
+2024-11-28 05:51:24,736 - INFO - No more data to fetch or an error occurred.
+2024-11-28 05:51:24,736 - INFO - Data fetching completed. Data saved to '../../data/processed/data.csv'.
+2024-11-28 05:51:38,089 - INFO - Resuming data fetch from existing file: ../../data/processed/data.csv
+2024-11-28 05:52:28,462 - INFO - Fetching records starting at offset 6388000
+2024-11-28 05:53:29,390 - ERROR - Error fetching data: HTTPSConnectionPool(host='data.cityofnewyork.us', port=443): Read timed out. (read timeout=60)
+2024-11-28 05:53:29,390 - INFO - No more data to fetch or an error occurred.
+2024-11-28 05:53:29,390 - INFO - Data fetching completed. Data saved to '../../data/processed/data.csv'.

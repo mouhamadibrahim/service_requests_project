@@ -1,0 +1,25 @@
+2024-11-28 07:31:55,579 - INFO - Starting the data science pipeline...
+2024-11-28 07:32:14,956 - INFO - Starting the data science pipeline...
+2024-11-28 07:32:39,983 - INFO - Starting the data science pipeline...
+2024-11-28 07:33:46,052 - INFO - Running data cleaning...
+2024-11-28 07:33:46,052 - INFO - Starting the main data cleaning pipeline.
+2024-11-28 07:33:52,544 - INFO - Cleaning 'closed_date' column.
+2024-11-28 07:33:53,607 - INFO - 'closed_date': 4809535 missing values before, 5467347 after cleaning.
+2024-11-28 07:33:54,414 - INFO - Cleaning 'latitude' and 'longitude' columns.
+2024-11-28 07:33:54,809 - INFO - Created ZIP mapping for 920 ZIP codes.
+2024-11-28 07:33:55,039 - INFO - 'latitude': Missing values after cleaning: 4492.
+2024-11-28 07:33:55,039 - INFO - 'longitude': Missing values after cleaning: 4505.
+2024-11-28 07:33:55,263 - INFO - Cleaning categorical column 'descriptor' using grouping on ['complaint_type', 'location_type'].
+2024-11-28 07:33:57,912 - INFO - 'descriptor': Missing values after cleaning: 12.
+2024-11-28 07:33:57,916 - INFO - Cleaning categorical column 'location_type' using grouping on ['complaint_type', 'descriptor'].
+2024-11-28 07:34:00,621 - INFO - 'location_type': Missing values after cleaning: 12.
+2024-11-28 07:34:00,821 - INFO - Cleaning 'incident_address' and related address fields.
+2024-11-28 07:34:01,318 - INFO - Cleaning 'bbl' column.
+2024-11-28 07:34:01,724 - INFO - 'bbl': Missing values after cleaning: 899.
+2024-11-28 07:34:02,354 - INFO - Dropping columns with high missing values: ['taxi_pick_up_location', 'vehicle_type'].
+2024-11-28 07:34:02,524 - INFO - Dropping redundant location columns: ['intersection_street_1', 'intersection_street_2', 'cross_street_1', 'cross_street_2'].
+2024-11-28 07:34:02,681 - INFO - Dropping redundant columns: 'x_coordinate_state_plane', 'y_coordinate_state_plane'.
+2024-11-28 07:34:02,821 - INFO - Dropping redundant columns: 'agency', 'location'.
+2024-11-28 07:34:02,936 - INFO - Cleaning remaining columns.
+2024-11-28 07:34:03,385 - INFO - Data cleaning pipeline completed successfully.
+2024-11-28 07:34:03,385 - INFO - Pipeline completed successfully!

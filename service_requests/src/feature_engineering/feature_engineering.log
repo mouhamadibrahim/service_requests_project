@@ -1,0 +1,56 @@
+2024-11-28 07:43:39,595 - INFO - Starting the feature engineering pipeline.
+2024-11-28 07:43:39,595 - INFO - Converting columns ['created_date', 'closed_date'] to datetime format.
+2024-11-28 07:43:41,331 - INFO - 'created_date': Missing values after datetime conversion: 0.
+2024-11-28 07:43:42,155 - INFO - 'closed_date': Missing values after datetime conversion: 5467347.
+2024-11-28 07:43:42,155 - INFO - Calculating response time from 'created_date' to 'closed_date'.
+2024-11-28 07:43:42,300 - INFO - 'response_time': Missing values after calculation: 5467347.
+2024-11-28 07:43:42,300 - INFO - Extracting date features from 'created_date' with prefix 'created'.
+2024-11-28 07:43:42,673 - INFO - Extracted features: 'created_hour', 'created_day', 'created_month'.
+2024-11-28 07:43:42,673 - INFO - Extracting date features from 'closed_date' with prefix 'closed'.
+2024-11-28 07:43:42,867 - INFO - Extracted features: 'closed_hour', 'closed_day', 'closed_month'.
+2024-11-28 07:43:42,867 - INFO - Creating weekday feature 'response_weekday' from 'created_date'.
+2024-11-28 07:43:43,024 - INFO - Creating interaction feature 'borough_complaint_type' by combining 'borough' and 'complaint_type'.
+2024-11-28 07:43:43,903 - INFO - Creating interaction feature 'hour_weekday_interaction' by combining 'created_hour' and 'response_weekday'.
+2024-11-28 07:43:46,398 - INFO - Feature engineering pipeline completed successfully.
+2024-11-28 07:48:11,840 - INFO - Starting the feature engineering pipeline.
+2024-11-28 07:48:11,840 - INFO - Converting columns ['created_date', 'closed_date', 'resolution_action_updated_date'] to datetime format.
+2024-11-28 07:48:12,849 - INFO - Calculating response time from 'created_date' to 'closed_date'.
+2024-11-28 07:48:12,974 - INFO - Extracting date features from 'created_date'.
+2024-11-28 07:48:13,343 - INFO - Extracting date features from 'closed_date'.
+2024-11-28 07:48:13,528 - INFO - Creating weekday feature 'response_weekday' from 'created_date'.
+2024-11-28 07:48:13,692 - INFO - Creating interaction feature 'borough_complaint_type' from 'borough' and 'complaint_type'.
+2024-11-28 07:48:14,663 - INFO - Creating interaction feature 'hour_weekday_interaction' from 'created_hour' and 'response_weekday'.
+2024-11-28 07:48:17,392 - INFO - Dropping columns: ['resolution_action_updated_date', 'incident_address'].
+2024-11-28 07:48:19,624 - INFO - Applying label encoding to columns: ['agency_name', 'address_type', 'status', 'location_type', 'park_borough', 'complaint_type', 'descriptor'].
+2024-11-28 07:48:29,065 - INFO - Applying frequency encoding to column: incident_zip.
+2024-11-28 07:48:29,313 - INFO - Applying frequency encoding to column: landmark.
+2024-11-28 07:48:29,586 - INFO - Applying frequency encoding to column: community_board.
+2024-11-28 07:48:30,013 - INFO - Applying frequency encoding to column: borough.
+2024-11-28 07:48:30,325 - INFO - Applying frequency encoding to column: open_data_channel_type.
+2024-11-28 07:48:31,213 - INFO - Applying frequency encoding to column: park_facility_name.
+2024-11-28 07:48:32,137 - INFO - Applying frequency encoding to column: borough_complaint_type.
+2024-11-28 07:48:32,980 - INFO - Scaling numerical columns: ['latitude', 'longitude', 'response_time'].
+2024-11-28 07:54:33,349 - INFO - Starting the feature engineering pipeline.
+2024-11-28 07:54:33,349 - INFO - Converting columns ['created_date', 'closed_date', 'resolution_action_updated_date'] to datetime format.
+2024-11-28 07:56:06,414 - INFO - Starting the feature engineering pipeline.
+2024-11-28 07:56:06,414 - INFO - Converting columns ['created_date', 'closed_date', 'resolution_action_updated_date'] to datetime format.
+2024-11-28 07:56:09,753 - INFO - Calculating response time from 'created_date' to 'closed_date'.
+2024-11-28 07:56:09,886 - INFO - Extracting date features from 'created_date'.
+2024-11-28 07:56:10,258 - INFO - Extracting date features from 'closed_date'.
+2024-11-28 07:56:10,438 - INFO - Creating weekday feature 'response_weekday' from 'created_date'.
+2024-11-28 07:56:10,583 - INFO - Creating interaction feature 'borough_complaint_type' from 'borough' and 'complaint_type'.
+2024-11-28 07:56:11,396 - INFO - Creating interaction feature 'hour_weekday_interaction' from 'created_hour' and 'response_weekday'.
+2024-11-28 07:56:14,062 - INFO - Dropping columns: ['resolution_action_updated_date', 'incident_address'].
+2024-11-28 07:56:16,025 - INFO - Applying label encoding to columns: ['agency_name', 'address_type', 'status', 'location_type', 'park_borough', 'complaint_type', 'descriptor'].
+2024-11-28 07:56:25,452 - INFO - Applying frequency encoding to column: incident_zip.
+2024-11-28 07:56:25,729 - INFO - Applying frequency encoding to column: landmark.
+2024-11-28 07:56:26,038 - INFO - Applying frequency encoding to column: community_board.
+2024-11-28 07:56:26,558 - INFO - Applying frequency encoding to column: borough.
+2024-11-28 07:56:26,922 - INFO - Applying frequency encoding to column: open_data_channel_type.
+2024-11-28 07:56:27,947 - INFO - Applying frequency encoding to column: park_facility_name.
+2024-11-28 07:56:28,920 - INFO - Applying frequency encoding to column: borough_complaint_type.
+2024-11-28 07:56:29,775 - INFO - Scaling numerical columns: ['latitude', 'longitude', 'response_time'].
+2024-11-28 07:56:31,704 - WARNING - Column 'latitude' has 4808262 missing or invalid values. Imputing with mean.
+2024-11-28 07:56:33,874 - WARNING - Column 'longitude' has 5036574 missing or invalid values. Imputing with mean.
+2024-11-28 07:56:33,931 - WARNING - Column 'response_time' has 5467347 missing or invalid values. Imputing with mean.
+2024-11-28 07:56:34,274 - INFO - Feature engineering pipeline completed successfully.

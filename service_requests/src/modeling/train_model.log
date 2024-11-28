@@ -1,0 +1,15 @@
+2024-11-28 08:28:05,764 - INFO - Loading dataset.
+2024-11-28 08:28:39,880 - INFO - Starting the training pipeline.
+2024-11-28 08:28:39,880 - INFO - Preparing data: Handling missing values and type conversions.
+2024-11-28 08:28:39,949 - INFO - Splitting data into train and test sets with test_size=0.2.
+2024-11-28 08:28:40,252 - INFO - Training Random Forest model with parameters: {'n_estimators': 50, 'max_depth': 10}.
+2024-11-28 08:35:04,532 - INFO - Starting the training pipeline.
+2024-11-28 08:35:04,532 - INFO - Preparing data: Handling missing values and type conversions.
+2024-11-28 08:35:04,538 - INFO - Splitting data into train and test sets with test_size=0.2.
+2024-11-28 08:35:04,867 - INFO - Training Random Forest model with parameters: {'n_estimators': 50, 'max_depth': 10}.
+2024-11-28 08:41:15,400 - INFO - Starting hyperparameter tuning with GridSearchCV.
+2024-11-28 09:11:36,778 - INFO - Loading dataset.
+2024-11-28 09:11:43,398 - INFO - Starting the training pipeline.
+2024-11-28 09:11:43,398 - INFO - Preparing data: Handling missing values and type conversions.
+2024-11-28 09:11:43,461 - INFO - Splitting data into train and test sets with test_size=0.2.
+2024-11-28 09:11:43,770 - INFO - Training Random Forest model with parameters: {'n_estimators': 50, 'max_depth': 10}.
